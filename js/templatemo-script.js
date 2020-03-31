@@ -1,5 +1,5 @@
 const initBg = (autoplay = true) => {
-    const bgImgsNames = ['IMG_3587.jpg', 'Escuela_Superior_de_Computo.jpg', 'escom.png'];
+    const bgImgsNames = ['escom.png', 'Escuela_Superior_de_Computo.jpg', 'escom.png'];
     const bgImgs = bgImgsNames.map(img => "img/" + img);
 
     $.backstretch(bgImgs, {duration: 4000, fade: 500});
